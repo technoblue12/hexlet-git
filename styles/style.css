@@ -16,6 +16,22 @@ body {
     padding: 0;
 }
 
+.link-text {
+    color: #F1B2CE;
+    filter: drop-shadow(2px 2.4px 0 #FF0070);
+}
+
+.link-text:hover {
+    color: #F1B2CE;
+    filter: drop-shadow(2px 2.4px 0 #FF0070);
+}
+
+.link-text:focus {
+    color: #F1B2CE;
+    border: 1px solid #F1B2CE;
+    filter: drop-shadow(2px 2.4px 0 #FF0070);
+}
+
 /* header-related tags and classes */
 header {
     width: 1024px;
@@ -89,7 +105,7 @@ header > section {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-
+    
     padding-left: 13.4px;
     padding-right: 13.4px;
 }
@@ -141,6 +157,105 @@ main {
 
     padding-bottom: 60px;
     background: #000028;
+
+    font-family: "IBM Plex Mono";
+    color: #FF0070;
+}
+
+main > section {
+    margin-left: 20px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-main {
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.text-main-2 {
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+/* Почему сосредоточиться так сложно */
+.caption-null {
+    margin: 0;
+}
+
+.leftblock1 {
+    width: 315px;
+    height: 508px;
+}
+
+.blocks1 {
+    display: flex;
+}
+
+.leftblock2 {
+    width: 315px;
+    margin-bottom: 20px;
+}
+
+.blocks2 {
+    display: flex;
+    width: 984px;
+}
+
+.leftblock3 {
+    width: 315px;
+    height: 1015px;
+    margin-right: 20px;
+}
+
+.blocks3 {
+    display: flex;
+}
+
+.block-caption-1 {
+    background-color: #FF0070;
+    color: #000028;
+    margin-bottom: 10px;
+}
+
+.block-caption-2 {
+    background-color: #FF0070;
+    color: #000028;
+    margin-bottom: 10px;
+}
+
+.block-caption-3 {
+    background-color: #FF0070;
+    color: #000028;
+    margin-bottom: 20px;
+}
+
+.block-card {
+    width: 649px;
+}
+
+.block-card-2 {
+    width: 315px;
+    margin-right: 20px;
+}
+
+.block-card-3 {
+    width: 649px;
+}
+
+.card-text-1 {
+    color: #F1B2CE;
+    margin-bottom: 20px;
+}
+
+.card-text-2 {
+    color: #F1B2CE;
+}
+
+.card-text-3 {
+    color: #F1B2CE;
 }
 
 /* footer-related tags and classes */
@@ -148,4 +263,12 @@ footer {
     width: 1024px;
     height: 768px;
     background: #000028;
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
 }
