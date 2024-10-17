@@ -20,6 +20,7 @@ body {
 .link-text {
     color: #F1B2CE;
     filter: drop-shadow(2px 2.4px 0 #FF0070);
+    text-decoration-line: none;
 }
 
 .link-text:hover {
@@ -165,9 +166,8 @@ header {
 /* main-related tags and classes */
 main {
     width: 1024px;
-    height: 3352px;
-
-    padding-bottom: 60px;
+    
+    margin-bottom: 68px;
     background: #000028;
 
     font-family: "IBM Plex Mono";
@@ -258,7 +258,8 @@ main > section {
 }
 
 .image-block {
-    width: 984px;
+    width: 1024px;
+    height: 1091px;
 }
 
 .grid-gallery {
@@ -306,6 +307,7 @@ figure {
 footer {
     width: 1024px;
     height: 768px;
+
     background: #000028;
 
     display: flex;
@@ -329,6 +331,18 @@ footer {
     margin-bottom: 80px;
 }
 
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
 .margin-bottom-20 {
     margin-bottom: 20px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
 }
